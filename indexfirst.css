@@ -1,0 +1,349 @@
+*{
+  box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+  }
+.header {
+      background-color: white(231, 223, 223);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+.header img {
+    width: 175px;
+    height: 100px;
+    padding-bottom: 0px;
+    padding-top:0px;
+  }
+
+
+
+.nav {
+    background-color: rgb(61, 51, 51);
+    color: aliceblue;
+        
+    padding: 10px;
+    overflow: hidden;
+  }
+
+
+
+.nav a{
+  float: left;
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+.nav a:hover{
+  color: black;
+}
+  
+
+  
+
+.our{
+  text-align: center;
+  overflow: hidden;
+  height: 400px;
+  background-color: white;
+}
+.our h1{
+  text-align: center;
+  
+  color: brown;
+  
+  padding: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.our p{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.row{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.alan{
+  margin:0 15px;
+  float: left;
+  background-color: white;
+  width: 30.55%;
+  padding-bottom: 20px;
+}
+.ad{text-align: center;}
+.alan img{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  float: left;
+}
+#ustbolge{
+  color: black;
+  background-color: cornflowerblue;
+  overflow: hidden;
+  height: 400px;
+  
+  width: 100%;
+  position: relative;
+}
+.ustaciklama h2{width: 100%; color: aliceblue;}
+.ustaciklama h5{width: 100%; color: red;}
+.ustaciklama{
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+}
+.rowiki{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(2, 2, 116);
+  overflow: hidden;
+}
+.sayilar{
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  
+}
+.aciklamalar{
+  color: white(73, 127, 173);
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+.rowiki table{
+   margin: 0 200px 0 200px;
+   padding: 20px;
+   
+   
+}
+.rowiki td{
+padding-left: 80px;
+padding-right: 80px;
+}
+.rowuc{
+  background-color: white(29, 95, 139);
+  
+  height: 400px;
+  overflow: hidden;
+}
+.rowdort{
+  background-color: rgb(5, 41, 107);
+  overflow: hidden;
+  height: auto;
+}
+
+.rowdort h1{
+  text-align: center;
+  margin:60px 30px;
+}
+.rowdort p{
+  
+  text-align: center;
+  margin: 0px 200px 10px 200px;
+}
+#form{
+  text-align: center;
+  background-color: transparent;
+
+
+}
+#ad{width: 200px;
+  background-color: transparent;
+  margin: 15px;
+  border-top: 0em;
+border-left: 0em;
+border-right: 0em;
+}
+#gonder{float: inherit;
+  background-color: #8ac43e;
+  margin-top: 10px;
+}
+#category{width: 200px;
+background-color: transparent;
+margin: 15px;
+border-top: 0em;
+border-left: 0em;
+border-right: 0em;}
+#email{
+  margin: 15px;
+  background-color: transparent;
+  width: 440px;
+  border-top: 0em;
+border-left: 0em;
+border-right: 0em;
+}
+#number{background-color: transparent; width: 200px; margin: 15px;
+  border-top: 0em;
+  border-left: 0em;
+  border-right: 0em;}
+#city{background-color: transparent; width: 200px; margin: 15px;
+  border-top: 0em;
+  border-left: 0em;
+  border-right: 0em;}
+#area{background-color: transparent; width: 440px; height: 100px;
+  border-top: 0em;
+  border-left: 0em;
+  border-right: 0em;}
+
+
+.rowbes .alan{
+  margin:auto;
+  float: left;
+  width: 25%;
+  
+}
+.rowbes .alan2{
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  background-color: #b19393;
+  border: black;
+  border-style: double;
+  border-width: 2px;
+  float: right;
+  margin: 4.6%;
+  overflow: hidden;
+}
+.rowbes .alan img{
+  width: 130%;
+    height: 300px;
+    object-fit: cover;
+    float: left;
+    margin: 70px;
+
+}
+.rowbes .alan2 h1{
+  text-align: center;
+  margin-bottom: auto;
+  
+}
+.rowbes .alan2 p{
+  text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    
+}
+
+.yuvarlak {
+    border-radius: 100px/100px;
+    background-color: rgb(54, 48, 48);
+    width: 80px;
+    height: 80px;
+    
+    float: right;
+    margin: 1.6%;
+    padding: auto;
+    margin: 0px 80px 0px 61.5px;
+    
+ 
+  }
+  .altyuvarlak{overflow: hidden; }
+  .metin{
+    background-color: white;
+    border-color: black;
+    border-style: double;
+    margin: 25px 52px 0px 50.5px;
+    width: 120px;
+    float: left;
+    overflow: hidden;
+    
+}
+.rowbes{overflow: hidden;}
+.rowalti h1{
+  text-align: center;
+  color: rgb(114, 34, 5);
+  margin: 40px;
+}
+.rowalti p{text-align: center; margin: 30px 200px 100px 200px; overflow: hidden;}
+.rowyedi{
+  overflow: hidden; 
+  width: 100%;
+  height: 200px;
+}
+
+#one{height: 100%; width: 20%; background-color: azure; float: left;} 
+#two{height: 100%; width: 20%; background-color: #b2b2b2; float: left;}
+#three{height: 100%; width: 20%; background-color:#615656;float: left;}
+#four{height: 100%; width: 20%; background-color: #4c4c4c;float: left;}
+#five{height: 100%; width: 20%; background-color: #2c2a2a;float: left;}
+
+.kaydirma::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(218, 50, 8);
+ }
+.rowsekiz{background-color: blue; width: 100%; height: 250px; overflow: hidden;}
+.rowsekiz .alan{
+  height: 250px;
+    width: 10%;
+    background-color: transparent;
+    text-align: center;
+    margin: 60px 67.3px 30px 67.5px;
+}
+.rowsekiz .alan .baslik{color: white; text-align: center;}
+.footer{background-color: #a78a8a; height: 50px; width: 100%; float: left;}
+.sag p{float: left; width: 40%; padding-bottom: 5px;}
+.sol{font-size: 30px; float: right; margin-right: 20px; margin-top: 5px;}
+.altyuvarlak{overflow: hidden;}
+@media screen and (max-width:700px){
+  .row .rowsekiz .rowyedi .rowalti .rowbes .rowdort .rowuc .rowiki {flex-direction: column;}
+}
+
+@media screen and (max-width:400px) {
+  * {margin: 0px; padding: 0px;}
+
+  .nav a{width: 100%;}
+  .our p{width: 100%;}
+  .row .alan img{width: 100%; text-align: center;}
+  .row .alan{width: 100%; text-align: center;}
+  .row .alan p{width: 100%; text-align: center;}
+
+  .row p {float: left;}
+  .rowiki {float: left; width: 100%;}
+  .rowiki .sayilar{width: 100%;}
+  .rowiki .aciklamalar{width: 100%;}
+
+  .rowuc img{width: 100%;}
+  .rowdort{text-align: center; width: 100%;}
+  .rowdort p{width: 100%; padding: 0px; text-align: center; margin:0px 5px 0px 5px;}
+  
+  .rowbes.alan{width: 90%;}
+  .rowbes{float: none; width: auto; text-align: center;}
+  .rowbes .alan img{width: 90%; text-align: center; margin: 5%; padding: 5%;}
+  .rowbes .alan2 {width: 100%; text-align: center;}
+  .rowalti{width: 100%; text-align: center; padding: 0px;}
+  .rowalti p{width: 100%; text-align: center; float: none; margin: revert;}
+  .rowyedi{width: 100%;}
+  .rowsekiz{width: 100%;}
+  
+  .rowbes .alan{width: 100%;}
+  .rowbes .alan img {width: -webkit-fill-available; text-align: center; float: none;}
+  .rowbes .alan2 {width: -webkit-fill-available; text-align: center; float: none;}
+  .rowsekiz .alan .baslik{width: auto; height: auto; margin:0px;}
+  .rowsekiz .alan {width: auto; margin:5%; height: auto;}  
+  .our hr{width: 60%; text-align: center; margin: 20%; margin-top: 0px; margin-bottom: 0px;}
+
+
+
+  .footer {width: 100%; height: 80px;}
+  .footer .sag p{height: 7px;}
+
+  .yuvarlak{height: auto; width: auto; padding: auto; margin: 2%;}
+  .metin{height: auto; width: auto; padding: auto; margin: 9px 36px 2px 35.3px;}
+  .altyuvarlak{overflow: hidden;}
+  .altmetin{text-align: center;}
+  
+}
+
